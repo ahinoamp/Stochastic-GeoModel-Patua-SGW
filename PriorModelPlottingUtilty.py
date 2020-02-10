@@ -62,6 +62,12 @@ def importModulesAndSetup():
 
     copyfile(source, target)
 
+    target = pynoddy.__file__[:-11]+'events.py'
+
+    source = 'events.py'
+
+    copyfile(source, target)
+
     ##############
     # Changing exection permissions
     ##############
@@ -291,7 +297,7 @@ def CalculatePlotStructure(H1, output_name, plot, includeGravityCalc=0, cubesize
         plot += e
     
     if(plotwells==1):
-        Data = pd.read_csv('WellNamesPaths.csv')
+        Data = pd.read_csv('Data/WellNamesPaths.csv')
 
         filterV = (Data['X_m']>minX+0.5*delx) & (Data['Y_m']>minY+0.5*dely) &  (Data['Z_m']>minZ+0.5*delz) & (Data['X_m']<maxX-0.5*delx) & (Data['Y_m']<maxY-0.5*dely) & (Data['Z_m']<maxZ-0.5*delz)
 
@@ -693,7 +699,7 @@ def plotRealizations(RealizationName, foldersuffix, nRealizations=4):
             nameLithology = grouped.loc[i, 'Layer']
             colormapname = getcolormap(nameLithology)
             colormap = matplotlib.cm.get_cmap(colormapname, 100)
-            newcolors = colormap(np.linspace(0.4, 0.8, grouped.loc[i, 'Number_colors']))
+            newcolors = colormap(np.linspace(0.4, 0.8, int(grouped.loc[i, 'Number_colors'])))
             if(i==0):
                 colormaplist = newcolors
             else:
