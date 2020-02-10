@@ -1,4 +1,3 @@
-import ezdxf
 import itertools
 import k3d
 import matplotlib
@@ -404,12 +403,44 @@ def PlotScenarios(ScenarioN, plot, plotwells =0):
         return
     
     xy_origin=[317883,4379646, 1200-4000]
+    folder = 'Data/'+ScenarioN+'/'
+    output_name = folder+'noddy_out'
+    includeGravityCalc = 0
+
     SurfacesScenario = {'Scenario1_MedResolution': 9, 'Scenario1_HighResolution':9,'Scenario2_MedResolution': 29,'Scenario2_HighResolution': 29, 'Scenario3_MedResolution': 12, 'Scenario3_HighResolution':12}
     nSurfaces = SurfacesScenario[ScenarioN]
 
-    folder = 'Data/'+ScenarioN+'/'
-    N1 = pynoddy.output.NoddyOutput(folder+ScenarioN)
-    points = np.loadtxt(folder+'Points.csv', delimiter=',')
+    CubeSizes = {'Scenario1_MedResolution': 100, 'Scenario1_HighResolution':50,'Scenario2_MedResolution': 100,'Scenario2_HighResolution': 50, 'Scenario3_MedResolution': 100, 'Scenario3_HighResolution':50}
+    cubesize = CubeSizes[ScenarioN]
+    cubesize = 250
+    modelfile = folder+ScenarioN+'.his'
+    H1 = pynoddy.history.NoddyHistory(modelfile)
+    outputoption = 'BLOCK_SURFACES'
+
+    start = time.time()
+    CalculateModel(modelfile, output_name, outputoption, cubesize)
+    end = time.time()
+    print('Calculation time took '+str(end - start) + ' seconds')
+
+    ## Now need to change the DXF file (mesh format) to VTK. This is slow unfortunately
+    start = time.time()
+    points, cell_data, faceCounter = getDXF_parsed_structure(output_name)
+    end = time.time()
+    print('Parsing time took '+str(end - start) + ' seconds')
+
+    ## Make a vtk file for each surface (option 1) or make a single vtk file for all surfaces (option 2)
+    outputOption = 1
+    fileprefix = folder+'TempSurface'
+
+    start = time.time()
+    nSurfaces, points, CatCodes = convertSurfaces2VTK(points, cell_data, faceCounter, outputOption, fileprefix,  xy_origin=xy_origin)
+    
+    end = time.time()
+    print('Convert 2 VTK time took '+str(end - start) + ' seconds')
+
+    
+    N1 = pynoddy.output.NoddyOutput(folder+'noddy_out')
+#    points = np.loadtxt(folder+'Points.csv', delimiter=',')
     lithology = N1.block
 
     [maxX, maxY, maxZ] = np.max(points, axis=0)
@@ -445,7 +476,7 @@ def PlotScenarios(ScenarioN, plot, plotwells =0):
         plot += e
     
     if(plotwells==1):
-        Data = pd.read_csv('WellNamesPaths.csv')
+        Data = pd.read_csv('Data/WellNamesPaths.csv')
 
         filterV = (Data['X_m']>minX+0.5*delx) & (Data['Y_m']>minY+0.5*dely) &  (Data['Z_m']>minZ+0.5*delz) & (Data['X_m']<maxX-0.5*delx) & (Data['Y_m']<maxY-0.5*dely) & (Data['Z_m']<maxZ-0.5*delz)
 
