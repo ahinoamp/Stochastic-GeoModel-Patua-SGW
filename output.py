@@ -462,7 +462,7 @@ class NoddyOutput(object):
             else:
                 cell_pos = position
                 
-            section_slice = data[cell_pos,:,:].transpose()
+            section_slice = data[int(cell_pos),:,:].transpose()
             #xlabel = "y"
             #ylabel = "z"
         elif direction == 'y':
@@ -480,7 +480,7 @@ class NoddyOutput(object):
             else:
                 cell_pos = position
                 
-            section_slice = self.block[:,:,cell_pos].transpose()
+            section_slice = self.block[:,:,int(cell_pos)].transpose()
         else:
             print(("Error: %s is not a valid direction. Please specify either ('x','y' or 'z')." % direction))
         
@@ -651,6 +651,122 @@ class NoddyOutput(object):
         else:
             plt.show()
             
+    def plot_section_faults(self, direction='y', position='center', xy_origin=[0,0, 0], **kwds):
+        """Create a section block through the model
+        
+        **Arguments**:
+            - *direction* = 'x', 'y', 'z' : coordinate direction of section plot (default: 'y')
+            - *position* = int or 'center' : cell position of section as integer value
+                or identifier (default: 'center')
+        
+        **Optional Keywords**:
+            - *ax* = matplotlib.axis : append plot to axis (default: create new plot)
+            - *figsize* = (x,y) : matplotlib figsize
+            - *colorbar* = bool : plot colorbar (default: True)
+            - *colorbar_orientation* = 'horizontal' or 'vertical' : orientation of colorbar
+                    (default: 'vertical')
+            - *title* = string : plot title
+            - *savefig* = bool : save figure to file (default: show directly on screen)
+            - *cmap* = matplotlib.cmap : colormap (default: YlOrRd)
+            - *fig_filename* = string : figure filename
+            - *ve* = float : vertical exaggeration
+            - *layer_labels* = list of strings: labels for each unit in plot
+            - *layers_from* = noddy history file : get labels automatically from history file
+            - *data* = np.array : data to plot, if different to block data itself
+            - *litho_filter* = a list of lithologies to draw. All others will be ignored.
+        """
+        #try importing matplotlib
+        try:
+            import matplotlib.pyplot as plt
+        except ImportError:
+            print ("Could not draw image as matplotlib is not installed. Please install matplotlib")
+            
+        cbar_orientation = kwds.get("colorbar_orientation", 'vertical')
+        litho_filter = kwds.get("litho_filter",None)
+        
+        # determine if data are passed - if not, then recompute model
+        #data = kwds.get('data',self.block)
+        ve = kwds.get("ve", 1.)
+        cmap_type = kwds.get('cmap', 'YlOrRd')
+        
+        if 'ax' in kwds:
+            # append plot to existing axis
+            ax = kwds['ax']
+            return_axis = True
+        else:
+            return_axis = False
+            figsize = kwds.get("figsize", (10,6))
+            fig = plt.figure(figsize=figsize)
+            ax = fig.add_subplot(111)
+        savefig = kwds.get("savefig", False)
+        colorbar = kwds.get("colorbar", True)
+            
+        # extract slice
+        #if kwds.has_key('data'):     
+        section_slice, cell_pos = self.get_section_voxels(direction,position,**kwds)
+        #else:
+        #    section_slice, cell_pos = self.get_section_voxels(direction,position,litho_filter=litho_filter)
+            
+        #calculate axis labels
+        if 'x' in direction:
+            xlabel="y"
+            ylabel="z"
+            extent = [self.ymin-0.5*self.dely +xy_origin[1], self.ymax+0.5*self.dely +xy_origin[1], self.zmin-0.5*self.delz+xy_origin[2], self.zmax+0.5*self.delz+xy_origin[2]] 
+        elif 'y' in direction:
+            xlabel = "x"
+            ylabel = "z"
+            extent = [self.xmin-0.5*self.delx + xy_origin[0], self.xmax+0.5*self.delx+xy_origin[0], self.zmin-0.5*self.delz+xy_origin[2], self.zmax+0.5*self.delz+xy_origin[2]] 
+        elif 'z' in direction:
+            xlabel = "x"
+            ylabel = "y"
+            extent = [self.xmin-0.5*self.delx+xy_origin[0], self.xmax+0.5*self.delx+xy_origin[0], self.ymin-0.5*self.dely+xy_origin[1], self.ymax+0.5*self.dely+xy_origin[1]] 
+
+        #plot section
+        title = kwds.get("title", "Section in %s-direction, pos=%d" % (direction, cell_pos))
+                       
+        im = ax.imshow(section_slice, interpolation='nearest', aspect=ve, cmap=cmap_type, origin = 'lower left', extent=extent)
+       
+        if colorbar and 'ax' not in kwds and False: #disable - color bar is broken
+#            cbar = plt.colorbar(im)
+#            _ = cbar
+#        
+            import matplotlib as mpl
+            bounds = np.arange(np.min(section_slice),np.max(section_slice)+1)
+            cmap = plt.cm.jet
+            norm = mpl.colors.BoundaryNorm(bounds, cmap.N)
+    
+            if cbar_orientation == 'horizontal':
+                ax2 = fig.add_axes([0.125, 0.18, 0.775, 0.04])
+                cb = mpl.colorbar.ColorbarBase(ax2, cmap=cmap_type, norm=norm, spacing='proportional', 
+                                           ticks=bounds, boundaries=bounds-0.5, label='Lithology',
+                                           orientation = 'horizontal') # , format='%s')
+                
+            else: # default is vertical 
+                # create a second axes for the colorbar
+                ax2 = fig.add_axes([0.95, 0.165, 0.03, 0.69])
+                cb = mpl.colorbar.ColorbarBase(ax2, cmap=cmap_type, norm=norm, spacing='proportional', 
+                                           ticks=bounds, boundaries=bounds-0.5, label = 'Lithology',
+                                           orientation = 'vertical') # , format='%s')
+            # define the bins and normalize
+    
+            if "layer_labels" in kwds:
+                cb.set_ticklabels(kwds["layer_labels"])
+                
+            # invert axis to have "correct" stratigraphic order
+            cb.ax.invert_yaxis()
+
+        ax.set_title(title)
+        ax.set_xlabel(xlabel)
+        ax.set_ylabel(ylabel)
+        
+        if return_axis:
+            return ax
+        elif savefig:
+            fig_filename = kwds.get("fig_filename", "%s_section_%s_pos_%d" % (self.basename, direction, cell_pos))
+            plt.savefig(fig_filename, bbox_inches="tight")
+        else:
+            plt.show()
+
     def export_to_vtk(self, **kwds):
         """Export model to VTK
         
