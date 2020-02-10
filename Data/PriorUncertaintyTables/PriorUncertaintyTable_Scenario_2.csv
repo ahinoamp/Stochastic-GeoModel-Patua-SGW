@@ -1,0 +1,721 @@
+Property,Parameter,Event Number,Event Name,Parameter Value
+Density,Prior distribution type,1,Sed,Gaussian
+Density,Prior distribution paramter 1,1,Sed,2.328
+Density,Prior distribution paramter 2,1,Sed,0.189
+Density,Prior distribution type,1,Felsic,Gaussian
+Density,Prior distribution paramter 1,1,Felsic,2.386
+Density,Prior distribution paramter 2,1,Felsic,0.149
+Density,Prior distribution type,1,Mafic,Gaussian
+Density,Prior distribution paramter 1,1,Mafic,2.531
+Density,Prior distribution paramter 2,1,Mafic,0.106
+Density,Prior distribution type,1,Intrusive,Gaussian
+Density,Prior distribution paramter 1,1,Intrusive,2.64396
+Density,Prior distribution paramter 2,1,Intrusive,0.193
+Plunge Direction,Prior distribution type,2,Stratigraphy Tilting,Uniform
+Plunge Direction,Prior distribution paramter 1,2,Stratigraphy Tilting,300
+Plunge Direction,Prior distribution paramter 2,2,Stratigraphy Tilting,330
+Rotation,Prior distribution type,2,Stratigraphy Tilting,Uniform
+Rotation,Prior distribution paramter 1,2,Stratigraphy Tilting,0
+Rotation,Prior distribution paramter 2,2,Stratigraphy Tilting,1
+X, Prior distribution type, 3,Fault,Uniform
+X, Prior distribution paramter 1, 3,Fault,2652.378111
+X, Prior distribution paramter 2, 3,Fault,2912.378111
+Y, Prior distribution type, 3,Fault,Uniform
+Y, Prior distribution paramter 1, 3,Fault,2475.671328
+Y, Prior distribution paramter 2, 3,Fault,2735.671328
+Z, Prior distribution type, 3,Fault,Uniform
+Z, Prior distribution paramter 1, 3,Fault,3870.0
+Z, Prior distribution paramter 2, 3,Fault,4130.0
+XAxis, Prior distribution type, 3,Fault,Uniform
+XAxis, Prior distribution paramter 1, 3,Fault,2536.95185515
+XAxis, Prior distribution paramter 2, 3,Fault,2803.99941885
+YAxis, Prior distribution type, 3,Fault,Uniform
+YAxis, Prior distribution paramter 1, 3,Fault,2536.95185515
+YAxis, Prior distribution paramter 2, 3,Fault,2803.99941885
+ZAxis, Prior distribution type, 3,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 3,Fault,2536.95185515
+ZAxis, Prior distribution paramter 2, 3,Fault,2803.99941885
+Dip, Prior distribution type, 3,Fault,Uniform
+Dip, Prior distribution paramter 1, 3,Fault,60
+Dip, Prior distribution paramter 2, 3,Fault,80
+Dip Direction, Prior distribution type, 3,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 3,Fault,52.313771
+Dip Direction, Prior distribution paramter 2, 3,Fault,72.313771
+Slip, Prior distribution type, 3,Fault,Uniform
+Slip, Prior distribution paramter 1, 3,Fault,170.9104408
+Slip, Prior distribution paramter 2, 3,Fault,213.638051
+X, Prior distribution type, 4,Fault,Uniform
+X, Prior distribution paramter 1, 4,Fault,2454.357427
+X, Prior distribution paramter 2, 4,Fault,2714.357427
+Y, Prior distribution type, 4,Fault,Uniform
+Y, Prior distribution paramter 1, 4,Fault,3920.221494
+Y, Prior distribution paramter 2, 4,Fault,4180.221493999999
+Z, Prior distribution type, 4,Fault,Uniform
+Z, Prior distribution paramter 1, 4,Fault,3870.0
+Z, Prior distribution paramter 2, 4,Fault,4130.0
+XAxis, Prior distribution type, 4,Fault,Uniform
+XAxis, Prior distribution paramter 1, 4,Fault,1521.97653675
+XAxis, Prior distribution paramter 2, 4,Fault,1682.18459325
+YAxis, Prior distribution type, 4,Fault,Uniform
+YAxis, Prior distribution paramter 1, 4,Fault,1521.97653675
+YAxis, Prior distribution paramter 2, 4,Fault,1682.18459325
+ZAxis, Prior distribution type, 4,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 4,Fault,1521.97653675
+ZAxis, Prior distribution paramter 2, 4,Fault,1682.18459325
+Dip, Prior distribution type, 4,Fault,Uniform
+Dip, Prior distribution paramter 1, 4,Fault,60
+Dip, Prior distribution paramter 2, 4,Fault,80
+Dip Direction, Prior distribution type, 4,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 4,Fault,222.201055
+Dip Direction, Prior distribution paramter 2, 4,Fault,242.201055
+Slip, Prior distribution type, 4,Fault,Uniform
+Slip, Prior distribution paramter 1, 4,Fault,102.53315600000002
+Slip, Prior distribution paramter 2, 4,Fault,128.166445
+X, Prior distribution type, 5,Fault,Uniform
+X, Prior distribution paramter 1, 5,Fault,1289.373351
+X, Prior distribution paramter 2, 5,Fault,1549.373351
+Y, Prior distribution type, 5,Fault,Uniform
+Y, Prior distribution paramter 1, 5,Fault,5473.025322
+Y, Prior distribution paramter 2, 5,Fault,5733.025322
+Z, Prior distribution type, 5,Fault,Uniform
+Z, Prior distribution paramter 1, 5,Fault,3870.0
+Z, Prior distribution paramter 2, 5,Fault,4130.0
+XAxis, Prior distribution type, 5,Fault,Uniform
+XAxis, Prior distribution paramter 1, 5,Fault,1213.85388445
+XAxis, Prior distribution paramter 2, 5,Fault,1341.6279775500002
+YAxis, Prior distribution type, 5,Fault,Uniform
+YAxis, Prior distribution paramter 1, 5,Fault,1213.85388445
+YAxis, Prior distribution paramter 2, 5,Fault,1341.6279775500002
+ZAxis, Prior distribution type, 5,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 5,Fault,1213.85388445
+ZAxis, Prior distribution paramter 2, 5,Fault,1341.6279775500002
+Dip, Prior distribution type, 5,Fault,Uniform
+Dip, Prior distribution paramter 1, 5,Fault,60
+Dip, Prior distribution paramter 2, 5,Fault,80
+Dip Direction, Prior distribution type, 5,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 5,Fault,295.02527
+Dip Direction, Prior distribution paramter 2, 5,Fault,315.02527
+Slip, Prior distribution type, 5,Fault,Uniform
+Slip, Prior distribution paramter 1, 5,Fault,81.77542
+Slip, Prior distribution paramter 2, 5,Fault,102.219275
+X, Prior distribution type, 6,Fault,Uniform
+X, Prior distribution paramter 1, 6,Fault,4497.478539
+X, Prior distribution paramter 2, 6,Fault,4757.478539
+Y, Prior distribution type, 6,Fault,Uniform
+Y, Prior distribution paramter 1, 6,Fault,3450.512426
+Y, Prior distribution paramter 2, 6,Fault,3710.512426
+Z, Prior distribution type, 6,Fault,Uniform
+Z, Prior distribution paramter 1, 6,Fault,3870.0
+Z, Prior distribution paramter 2, 6,Fault,4130.0
+XAxis, Prior distribution type, 6,Fault,Uniform
+XAxis, Prior distribution paramter 1, 6,Fault,1716.82234995
+XAxis, Prior distribution paramter 2, 6,Fault,1897.54049205
+YAxis, Prior distribution type, 6,Fault,Uniform
+YAxis, Prior distribution paramter 1, 6,Fault,1716.82234995
+YAxis, Prior distribution paramter 2, 6,Fault,1897.54049205
+ZAxis, Prior distribution type, 6,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 6,Fault,1716.82234995
+ZAxis, Prior distribution paramter 2, 6,Fault,1897.54049205
+Dip, Prior distribution type, 6,Fault,Uniform
+Dip, Prior distribution paramter 1, 6,Fault,60
+Dip, Prior distribution paramter 2, 6,Fault,80
+Dip Direction, Prior distribution type, 6,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 6,Fault,297.115298
+Dip Direction, Prior distribution paramter 2, 6,Fault,317.115298
+Slip, Prior distribution type, 6,Fault,Uniform
+Slip, Prior distribution paramter 1, 6,Fault,115.6596112
+Slip, Prior distribution paramter 2, 6,Fault,144.574514
+X, Prior distribution type, 7,Fault,Uniform
+X, Prior distribution paramter 1, 7,Fault,3417.730803
+X, Prior distribution paramter 2, 7,Fault,3677.730803
+Y, Prior distribution type, 7,Fault,Uniform
+Y, Prior distribution paramter 1, 7,Fault,2244.004055
+Y, Prior distribution paramter 2, 7,Fault,2504.004055
+Z, Prior distribution type, 7,Fault,Uniform
+Z, Prior distribution paramter 1, 7,Fault,3870.0
+Z, Prior distribution paramter 2, 7,Fault,4130.0
+XAxis, Prior distribution type, 7,Fault,Uniform
+XAxis, Prior distribution paramter 1, 7,Fault,131.50276105
+XAxis, Prior distribution paramter 2, 7,Fault,145.34515695
+YAxis, Prior distribution type, 7,Fault,Uniform
+YAxis, Prior distribution paramter 1, 7,Fault,131.50276105
+YAxis, Prior distribution paramter 2, 7,Fault,145.34515695
+ZAxis, Prior distribution type, 7,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 7,Fault,131.50276105
+ZAxis, Prior distribution paramter 2, 7,Fault,145.34515695
+Dip, Prior distribution type, 7,Fault,Uniform
+Dip, Prior distribution paramter 1, 7,Fault,60
+Dip, Prior distribution paramter 2, 7,Fault,80
+Dip Direction, Prior distribution type, 7,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 7,Fault,315.097206
+Dip Direction, Prior distribution paramter 2, 7,Fault,335.097206
+Slip, Prior distribution type, 7,Fault,Uniform
+Slip, Prior distribution paramter 1, 7,Fault,8.8591336
+Slip, Prior distribution paramter 2, 7,Fault,11.073917
+X, Prior distribution type, 8,Fault,Uniform
+X, Prior distribution paramter 1, 8,Fault,4374.873371
+X, Prior distribution paramter 2, 8,Fault,4634.873371
+Y, Prior distribution type, 8,Fault,Uniform
+Y, Prior distribution paramter 1, 8,Fault,2691.994337
+Y, Prior distribution paramter 2, 8,Fault,2951.994337
+Z, Prior distribution type, 8,Fault,Uniform
+Z, Prior distribution paramter 1, 8,Fault,3870.0
+Z, Prior distribution paramter 2, 8,Fault,4130.0
+XAxis, Prior distribution type, 8,Fault,Uniform
+XAxis, Prior distribution paramter 1, 8,Fault,140.36163455
+XAxis, Prior distribution paramter 2, 8,Fault,155.13654345
+YAxis, Prior distribution type, 8,Fault,Uniform
+YAxis, Prior distribution paramter 1, 8,Fault,140.36163455
+YAxis, Prior distribution paramter 2, 8,Fault,155.13654345
+ZAxis, Prior distribution type, 8,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 8,Fault,140.36163455
+ZAxis, Prior distribution paramter 2, 8,Fault,155.13654345
+Dip, Prior distribution type, 8,Fault,Uniform
+Dip, Prior distribution paramter 1, 8,Fault,60
+Dip, Prior distribution paramter 2, 8,Fault,80
+Dip Direction, Prior distribution type, 8,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 8,Fault,264.358186
+Dip Direction, Prior distribution paramter 2, 8,Fault,284.358186
+Slip, Prior distribution type, 8,Fault,Uniform
+Slip, Prior distribution paramter 1, 8,Fault,9.455941600000001
+Slip, Prior distribution paramter 2, 8,Fault,11.819927
+X, Prior distribution type, 9,Fault,Uniform
+X, Prior distribution paramter 1, 9,Fault,4906.179069
+X, Prior distribution paramter 2, 9,Fault,5166.179069
+Y, Prior distribution type, 9,Fault,Uniform
+Y, Prior distribution paramter 1, 9,Fault,3313.790858
+Y, Prior distribution paramter 2, 9,Fault,3573.790858
+Z, Prior distribution type, 9,Fault,Uniform
+Z, Prior distribution paramter 1, 9,Fault,3870.0
+Z, Prior distribution paramter 2, 9,Fault,4130.0
+XAxis, Prior distribution type, 9,Fault,Uniform
+XAxis, Prior distribution paramter 1, 9,Fault,294.36242384999997
+XAxis, Prior distribution paramter 2, 9,Fault,325.34794215000005
+YAxis, Prior distribution type, 9,Fault,Uniform
+YAxis, Prior distribution paramter 1, 9,Fault,294.36242384999997
+YAxis, Prior distribution paramter 2, 9,Fault,325.34794215000005
+ZAxis, Prior distribution type, 9,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 9,Fault,294.36242384999997
+ZAxis, Prior distribution paramter 2, 9,Fault,325.34794215000005
+Dip, Prior distribution type, 9,Fault,Uniform
+Dip, Prior distribution paramter 1, 9,Fault,60
+Dip, Prior distribution paramter 2, 9,Fault,80
+Dip Direction, Prior distribution type, 9,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 9,Fault,311.407848
+Dip Direction, Prior distribution paramter 2, 9,Fault,331.407848
+Slip, Prior distribution type, 9,Fault,Uniform
+Slip, Prior distribution paramter 1, 9,Fault,19.830732
+Slip, Prior distribution paramter 2, 9,Fault,24.788415
+X, Prior distribution type, 10,Fault,Uniform
+X, Prior distribution paramter 1, 10,Fault,5487.921507
+X, Prior distribution paramter 2, 10,Fault,5747.921507
+Y, Prior distribution type, 10,Fault,Uniform
+Y, Prior distribution paramter 1, 10,Fault,3740.963157
+Y, Prior distribution paramter 2, 10,Fault,4000.963157
+Z, Prior distribution type, 10,Fault,Uniform
+Z, Prior distribution paramter 1, 10,Fault,3870.0
+Z, Prior distribution paramter 2, 10,Fault,4130.0
+XAxis, Prior distribution type, 10,Fault,Uniform
+XAxis, Prior distribution paramter 1, 10,Fault,200.62832545
+XAxis, Prior distribution paramter 2, 10,Fault,221.74709655
+YAxis, Prior distribution type, 10,Fault,Uniform
+YAxis, Prior distribution paramter 1, 10,Fault,200.62832545
+YAxis, Prior distribution paramter 2, 10,Fault,221.74709655
+ZAxis, Prior distribution type, 10,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 10,Fault,200.62832545
+ZAxis, Prior distribution paramter 2, 10,Fault,221.74709655
+Dip, Prior distribution type, 10,Fault,Uniform
+Dip, Prior distribution paramter 1, 10,Fault,60
+Dip, Prior distribution paramter 2, 10,Fault,80
+Dip Direction, Prior distribution type, 10,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 10,Fault,260.689419
+Dip Direction, Prior distribution paramter 2, 10,Fault,280.689419
+Slip, Prior distribution type, 10,Fault,Uniform
+Slip, Prior distribution paramter 1, 10,Fault,13.5160136
+Slip, Prior distribution paramter 2, 10,Fault,16.895017
+X, Prior distribution type, 11,Fault,Uniform
+X, Prior distribution paramter 1, 11,Fault,4811.438
+X, Prior distribution paramter 2, 11,Fault,5071.438
+Y, Prior distribution type, 11,Fault,Uniform
+Y, Prior distribution paramter 1, 11,Fault,2659.4025
+Y, Prior distribution paramter 2, 11,Fault,2919.4025
+Z, Prior distribution type, 11,Fault,Uniform
+Z, Prior distribution paramter 1, 11,Fault,3870.0
+Z, Prior distribution paramter 2, 11,Fault,4130.0
+XAxis, Prior distribution type, 11,Fault,Uniform
+XAxis, Prior distribution paramter 1, 11,Fault,193.5145364
+XAxis, Prior distribution paramter 2, 11,Fault,213.8844876
+YAxis, Prior distribution type, 11,Fault,Uniform
+YAxis, Prior distribution paramter 1, 11,Fault,193.5145364
+YAxis, Prior distribution paramter 2, 11,Fault,213.8844876
+ZAxis, Prior distribution type, 11,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 11,Fault,193.5145364
+ZAxis, Prior distribution paramter 2, 11,Fault,213.8844876
+Dip, Prior distribution type, 11,Fault,Uniform
+Dip, Prior distribution paramter 1, 11,Fault,60
+Dip, Prior distribution paramter 2, 11,Fault,80
+Dip Direction, Prior distribution type, 11,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 11,Fault,306.273114
+Dip Direction, Prior distribution paramter 2, 11,Fault,326.273114
+Slip, Prior distribution type, 11,Fault,Uniform
+Slip, Prior distribution paramter 1, 11,Fault,13.036768799999999
+Slip, Prior distribution paramter 2, 11,Fault,16.295961
+X, Prior distribution type, 12,Fault,Uniform
+X, Prior distribution paramter 1, 12,Fault,5246.644
+X, Prior distribution paramter 2, 12,Fault,5506.644
+Y, Prior distribution type, 12,Fault,Uniform
+Y, Prior distribution paramter 1, 12,Fault,2198.5965
+Y, Prior distribution paramter 2, 12,Fault,2458.5965
+Z, Prior distribution type, 12,Fault,Uniform
+Z, Prior distribution paramter 1, 12,Fault,3870.0
+Z, Prior distribution paramter 2, 12,Fault,4130.0
+XAxis, Prior distribution type, 12,Fault,Uniform
+XAxis, Prior distribution paramter 1, 12,Fault,182.90852265
+XAxis, Prior distribution paramter 2, 12,Fault,202.16205135
+YAxis, Prior distribution type, 12,Fault,Uniform
+YAxis, Prior distribution paramter 1, 12,Fault,182.90852265
+YAxis, Prior distribution paramter 2, 12,Fault,202.16205135
+ZAxis, Prior distribution type, 12,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 12,Fault,182.90852265
+ZAxis, Prior distribution paramter 2, 12,Fault,202.16205135
+Dip, Prior distribution type, 12,Fault,Uniform
+Dip, Prior distribution paramter 1, 12,Fault,60
+Dip, Prior distribution paramter 2, 12,Fault,80
+Dip Direction, Prior distribution type, 12,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 12,Fault,281.447741
+Dip Direction, Prior distribution paramter 2, 12,Fault,301.447741
+Slip, Prior distribution type, 12,Fault,Uniform
+Slip, Prior distribution paramter 1, 12,Fault,12.3222584
+Slip, Prior distribution paramter 2, 12,Fault,15.402823
+X, Prior distribution type, 13,Fault,Uniform
+X, Prior distribution paramter 1, 13,Fault,6578.048464
+X, Prior distribution paramter 2, 13,Fault,6838.048464
+Y, Prior distribution type, 13,Fault,Uniform
+Y, Prior distribution paramter 1, 13,Fault,4019.7368450000004
+Y, Prior distribution paramter 2, 13,Fault,4279.736845
+Z, Prior distribution type, 13,Fault,Uniform
+Z, Prior distribution paramter 1, 13,Fault,3870.0
+Z, Prior distribution paramter 2, 13,Fault,4130.0
+XAxis, Prior distribution type, 13,Fault,Uniform
+XAxis, Prior distribution paramter 1, 13,Fault,2112.75317355
+XAxis, Prior distribution paramter 2, 13,Fault,2335.14824445
+YAxis, Prior distribution type, 13,Fault,Uniform
+YAxis, Prior distribution paramter 1, 13,Fault,2112.75317355
+YAxis, Prior distribution paramter 2, 13,Fault,2335.14824445
+ZAxis, Prior distribution type, 13,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 13,Fault,2112.75317355
+ZAxis, Prior distribution paramter 2, 13,Fault,2335.14824445
+Dip, Prior distribution type, 13,Fault,Uniform
+Dip, Prior distribution paramter 1, 13,Fault,60
+Dip, Prior distribution paramter 2, 13,Fault,80
+Dip Direction, Prior distribution type, 13,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 13,Fault,119.881
+Dip Direction, Prior distribution paramter 2, 13,Fault,139.881
+Slip, Prior distribution type, 13,Fault,Uniform
+Slip, Prior distribution paramter 1, 13,Fault,142.3328456
+Slip, Prior distribution paramter 2, 13,Fault,177.916057
+X, Prior distribution type, 14,Fault,Uniform
+X, Prior distribution paramter 1, 14,Fault,6789.0655
+X, Prior distribution paramter 2, 14,Fault,7049.0655
+Y, Prior distribution type, 14,Fault,Uniform
+Y, Prior distribution paramter 1, 14,Fault,4329.8255
+Y, Prior distribution paramter 2, 14,Fault,4589.8255
+Z, Prior distribution type, 14,Fault,Uniform
+Z, Prior distribution paramter 1, 14,Fault,3870.0
+Z, Prior distribution paramter 2, 14,Fault,4130.0
+XAxis, Prior distribution type, 14,Fault,Uniform
+XAxis, Prior distribution paramter 1, 14,Fault,394.08135599999997
+XAxis, Prior distribution paramter 2, 14,Fault,435.563604
+YAxis, Prior distribution type, 14,Fault,Uniform
+YAxis, Prior distribution paramter 1, 14,Fault,394.08135599999997
+YAxis, Prior distribution paramter 2, 14,Fault,435.563604
+ZAxis, Prior distribution type, 14,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 14,Fault,394.08135599999997
+ZAxis, Prior distribution paramter 2, 14,Fault,435.563604
+Dip, Prior distribution type, 14,Fault,Uniform
+Dip, Prior distribution paramter 1, 14,Fault,60
+Dip, Prior distribution paramter 2, 14,Fault,80
+Dip Direction, Prior distribution type, 14,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 14,Fault,118.107574
+Dip Direction, Prior distribution paramter 2, 14,Fault,138.107574
+Slip, Prior distribution type, 14,Fault,Uniform
+Slip, Prior distribution paramter 1, 14,Fault,26.5486384
+Slip, Prior distribution paramter 2, 14,Fault,33.185798
+X, Prior distribution type, 15,Fault,Uniform
+X, Prior distribution paramter 1, 15,Fault,4859.711811
+X, Prior distribution paramter 2, 15,Fault,5119.711811
+Y, Prior distribution type, 15,Fault,Uniform
+Y, Prior distribution paramter 1, 15,Fault,8108.020938
+Y, Prior distribution paramter 2, 15,Fault,8368.020938
+Z, Prior distribution type, 15,Fault,Uniform
+Z, Prior distribution paramter 1, 15,Fault,3870.0
+Z, Prior distribution paramter 2, 15,Fault,4130.0
+XAxis, Prior distribution type, 15,Fault,Uniform
+XAxis, Prior distribution paramter 1, 15,Fault,3806.0563962999995
+XAxis, Prior distribution paramter 2, 15,Fault,4206.6939117
+YAxis, Prior distribution type, 15,Fault,Uniform
+YAxis, Prior distribution paramter 1, 15,Fault,3806.0563962999995
+YAxis, Prior distribution paramter 2, 15,Fault,4206.6939117
+ZAxis, Prior distribution type, 15,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 15,Fault,3806.0563962999995
+ZAxis, Prior distribution paramter 2, 15,Fault,4206.6939117
+Dip, Prior distribution type, 15,Fault,Uniform
+Dip, Prior distribution paramter 1, 15,Fault,60
+Dip, Prior distribution paramter 2, 15,Fault,80
+Dip Direction, Prior distribution type, 15,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 15,Fault,293.621835
+Dip Direction, Prior distribution paramter 2, 15,Fault,313.621835
+Slip, Prior distribution type, 15,Fault,Uniform
+Slip, Prior distribution paramter 1, 15,Fault,256.4080096
+Slip, Prior distribution paramter 2, 15,Fault,320.510012
+X, Prior distribution type, 16,Fault,Uniform
+X, Prior distribution paramter 1, 16,Fault,5414.747336
+X, Prior distribution paramter 2, 16,Fault,5674.747336
+Y, Prior distribution type, 16,Fault,Uniform
+Y, Prior distribution paramter 1, 16,Fault,7929.400594
+Y, Prior distribution paramter 2, 16,Fault,8189.400594
+Z, Prior distribution type, 16,Fault,Uniform
+Z, Prior distribution paramter 1, 16,Fault,3870.0
+Z, Prior distribution paramter 2, 16,Fault,4130.0
+XAxis, Prior distribution type, 16,Fault,Uniform
+XAxis, Prior distribution paramter 1, 16,Fault,3877.1088295499994
+XAxis, Prior distribution paramter 2, 16,Fault,4285.22554845
+YAxis, Prior distribution type, 16,Fault,Uniform
+YAxis, Prior distribution paramter 1, 16,Fault,3877.1088295499994
+YAxis, Prior distribution paramter 2, 16,Fault,4285.22554845
+ZAxis, Prior distribution type, 16,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 16,Fault,3877.1088295499994
+ZAxis, Prior distribution paramter 2, 16,Fault,4285.22554845
+Dip, Prior distribution type, 16,Fault,Uniform
+Dip, Prior distribution paramter 1, 16,Fault,60
+Dip, Prior distribution paramter 2, 16,Fault,80
+Dip Direction, Prior distribution type, 16,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 16,Fault,293.191417
+Dip Direction, Prior distribution paramter 2, 16,Fault,313.191417
+Slip, Prior distribution type, 16,Fault,Uniform
+Slip, Prior distribution paramter 1, 16,Fault,261.1947
+Slip, Prior distribution paramter 2, 16,Fault,326.493375
+X, Prior distribution type, 17,Fault,Uniform
+X, Prior distribution paramter 1, 17,Fault,6827.512945
+X, Prior distribution paramter 2, 17,Fault,7087.512945
+Y, Prior distribution type, 17,Fault,Uniform
+Y, Prior distribution paramter 1, 17,Fault,5240.41257
+Y, Prior distribution paramter 2, 17,Fault,5500.41257
+Z, Prior distribution type, 17,Fault,Uniform
+Z, Prior distribution paramter 1, 17,Fault,3870.0
+Z, Prior distribution paramter 2, 17,Fault,4130.0
+XAxis, Prior distribution type, 17,Fault,Uniform
+XAxis, Prior distribution paramter 1, 17,Fault,316.21848105
+XAxis, Prior distribution paramter 2, 17,Fault,349.50463695
+YAxis, Prior distribution type, 17,Fault,Uniform
+YAxis, Prior distribution paramter 1, 17,Fault,316.21848105
+YAxis, Prior distribution paramter 2, 17,Fault,349.50463695
+ZAxis, Prior distribution type, 17,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 17,Fault,316.21848105
+ZAxis, Prior distribution paramter 2, 17,Fault,349.50463695
+Dip, Prior distribution type, 17,Fault,Uniform
+Dip, Prior distribution paramter 1, 17,Fault,60
+Dip, Prior distribution paramter 2, 17,Fault,80
+Dip Direction, Prior distribution type, 17,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 17,Fault,28.261836000000002
+Dip Direction, Prior distribution paramter 2, 17,Fault,48.261836
+Slip, Prior distribution type, 17,Fault,Uniform
+Slip, Prior distribution paramter 1, 17,Fault,21.30314
+Slip, Prior distribution paramter 2, 17,Fault,26.628925
+X, Prior distribution type, 18,Fault,Uniform
+X, Prior distribution paramter 1, 18,Fault,8844.834697
+X, Prior distribution paramter 2, 18,Fault,9104.834697
+Y, Prior distribution type, 18,Fault,Uniform
+Y, Prior distribution paramter 1, 18,Fault,6311.748895
+Y, Prior distribution paramter 2, 18,Fault,6571.748895
+Z, Prior distribution type, 18,Fault,Uniform
+Z, Prior distribution paramter 1, 18,Fault,3870.0
+Z, Prior distribution paramter 2, 18,Fault,4130.0
+XAxis, Prior distribution type, 18,Fault,Uniform
+XAxis, Prior distribution paramter 1, 18,Fault,1425.08561115
+XAxis, Prior distribution paramter 2, 18,Fault,1575.09462285
+YAxis, Prior distribution type, 18,Fault,Uniform
+YAxis, Prior distribution paramter 1, 18,Fault,1425.08561115
+YAxis, Prior distribution paramter 2, 18,Fault,1575.09462285
+ZAxis, Prior distribution type, 18,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 18,Fault,1425.08561115
+ZAxis, Prior distribution paramter 2, 18,Fault,1575.09462285
+Dip, Prior distribution type, 18,Fault,Uniform
+Dip, Prior distribution paramter 1, 18,Fault,60
+Dip, Prior distribution paramter 2, 18,Fault,80
+Dip Direction, Prior distribution type, 18,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 18,Fault,137.463754
+Dip Direction, Prior distribution paramter 2, 18,Fault,157.463754
+Slip, Prior distribution type, 18,Fault,Uniform
+Slip, Prior distribution paramter 1, 18,Fault,96.00576720000001
+Slip, Prior distribution paramter 2, 18,Fault,120.007209
+X, Prior distribution type, 19,Fault,Uniform
+X, Prior distribution paramter 1, 19,Fault,8906.610568
+X, Prior distribution paramter 2, 19,Fault,9166.610568
+Y, Prior distribution type, 19,Fault,Uniform
+Y, Prior distribution paramter 1, 19,Fault,7866.722726
+Y, Prior distribution paramter 2, 19,Fault,8126.722726
+Z, Prior distribution type, 19,Fault,Uniform
+Z, Prior distribution paramter 1, 19,Fault,3870.0
+Z, Prior distribution paramter 2, 19,Fault,4130.0
+XAxis, Prior distribution type, 19,Fault,Uniform
+XAxis, Prior distribution paramter 1, 19,Fault,1532.2406265
+XAxis, Prior distribution paramter 2, 19,Fault,1693.5291135000002
+YAxis, Prior distribution type, 19,Fault,Uniform
+YAxis, Prior distribution paramter 1, 19,Fault,1532.2406265
+YAxis, Prior distribution paramter 2, 19,Fault,1693.5291135000002
+ZAxis, Prior distribution type, 19,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 19,Fault,1532.2406265
+ZAxis, Prior distribution paramter 2, 19,Fault,1693.5291135000002
+Dip, Prior distribution type, 19,Fault,Uniform
+Dip, Prior distribution paramter 1, 19,Fault,60
+Dip, Prior distribution paramter 2, 19,Fault,80
+Dip Direction, Prior distribution type, 19,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 19,Fault,91.399165
+Dip Direction, Prior distribution paramter 2, 19,Fault,111.399165
+Slip, Prior distribution type, 19,Fault,Uniform
+Slip, Prior distribution paramter 1, 19,Fault,103.224632
+Slip, Prior distribution paramter 2, 19,Fault,129.03079
+X, Prior distribution type, 20,Fault,Uniform
+X, Prior distribution paramter 1, 20,Fault,8489.78684
+X, Prior distribution paramter 2, 20,Fault,8749.78684
+Y, Prior distribution type, 20,Fault,Uniform
+Y, Prior distribution paramter 1, 20,Fault,8024.314518
+Y, Prior distribution paramter 2, 20,Fault,8284.314518
+Z, Prior distribution type, 20,Fault,Uniform
+Z, Prior distribution paramter 1, 20,Fault,3870.0
+Z, Prior distribution paramter 2, 20,Fault,4130.0
+XAxis, Prior distribution type, 20,Fault,Uniform
+XAxis, Prior distribution paramter 1, 20,Fault,1779.72559865
+XAxis, Prior distribution paramter 2, 20,Fault,1967.0651353500002
+YAxis, Prior distribution type, 20,Fault,Uniform
+YAxis, Prior distribution paramter 1, 20,Fault,1779.72559865
+YAxis, Prior distribution paramter 2, 20,Fault,1967.0651353500002
+ZAxis, Prior distribution type, 20,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 20,Fault,1779.72559865
+ZAxis, Prior distribution paramter 2, 20,Fault,1967.0651353500002
+Dip, Prior distribution type, 20,Fault,Uniform
+Dip, Prior distribution paramter 1, 20,Fault,60
+Dip, Prior distribution paramter 2, 20,Fault,80
+Dip Direction, Prior distribution type, 20,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 20,Fault,192.168617
+Dip Direction, Prior distribution paramter 2, 20,Fault,212.168617
+Slip, Prior distribution type, 20,Fault,Uniform
+Slip, Prior distribution paramter 1, 20,Fault,119.89730320000001
+Slip, Prior distribution paramter 2, 20,Fault,149.871629
+X, Prior distribution type, 21,Fault,Uniform
+X, Prior distribution paramter 1, 21,Fault,3639.181799
+X, Prior distribution paramter 2, 21,Fault,3899.181799
+Y, Prior distribution type, 21,Fault,Uniform
+Y, Prior distribution paramter 1, 21,Fault,9221.434664
+Y, Prior distribution paramter 2, 21,Fault,9481.434664
+Z, Prior distribution type, 21,Fault,Uniform
+Z, Prior distribution paramter 1, 21,Fault,3870.0
+Z, Prior distribution paramter 2, 21,Fault,4130.0
+XAxis, Prior distribution type, 21,Fault,Uniform
+XAxis, Prior distribution paramter 1, 21,Fault,2356.7998031
+XAxis, Prior distribution paramter 2, 21,Fault,2604.8839929
+YAxis, Prior distribution type, 21,Fault,Uniform
+YAxis, Prior distribution paramter 1, 21,Fault,2356.7998031
+YAxis, Prior distribution paramter 2, 21,Fault,2604.8839929
+ZAxis, Prior distribution type, 21,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 21,Fault,2356.7998031
+ZAxis, Prior distribution paramter 2, 21,Fault,2604.8839929
+Dip, Prior distribution type, 21,Fault,Uniform
+Dip, Prior distribution paramter 1, 21,Fault,60
+Dip, Prior distribution paramter 2, 21,Fault,80
+Dip Direction, Prior distribution type, 21,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 21,Fault,285.25019
+Dip Direction, Prior distribution paramter 2, 21,Fault,305.25019
+Slip, Prior distribution type, 21,Fault,Uniform
+Slip, Prior distribution paramter 1, 21,Fault,158.7738816
+Slip, Prior distribution paramter 2, 21,Fault,198.467352
+X, Prior distribution type, 22,Fault,Uniform
+X, Prior distribution paramter 1, 22,Fault,3181.27245
+X, Prior distribution paramter 2, 22,Fault,3441.27245
+Y, Prior distribution type, 22,Fault,Uniform
+Y, Prior distribution paramter 1, 22,Fault,6932.35841
+Y, Prior distribution paramter 2, 22,Fault,7192.35841
+Z, Prior distribution type, 22,Fault,Uniform
+Z, Prior distribution paramter 1, 22,Fault,3870.0
+Z, Prior distribution paramter 2, 22,Fault,4130.0
+XAxis, Prior distribution type, 22,Fault,Uniform
+XAxis, Prior distribution paramter 1, 22,Fault,828.7982333499999
+XAxis, Prior distribution paramter 2, 22,Fault,916.04015265
+YAxis, Prior distribution type, 22,Fault,Uniform
+YAxis, Prior distribution paramter 1, 22,Fault,828.7982333499999
+YAxis, Prior distribution paramter 2, 22,Fault,916.04015265
+ZAxis, Prior distribution type, 22,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 22,Fault,828.7982333499999
+ZAxis, Prior distribution paramter 2, 22,Fault,916.04015265
+Dip, Prior distribution type, 22,Fault,Uniform
+Dip, Prior distribution paramter 1, 22,Fault,60
+Dip, Prior distribution paramter 2, 22,Fault,80
+Dip Direction, Prior distribution type, 22,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 22,Fault,306.77864
+Dip Direction, Prior distribution paramter 2, 22,Fault,326.77864
+Slip, Prior distribution type, 22,Fault,Uniform
+Slip, Prior distribution paramter 1, 22,Fault,55.83482800000001
+Slip, Prior distribution paramter 2, 22,Fault,69.793535
+X, Prior distribution type, 23,Fault,Uniform
+X, Prior distribution paramter 1, 23,Fault,3958.852478
+X, Prior distribution paramter 2, 23,Fault,4218.852478
+Y, Prior distribution type, 23,Fault,Uniform
+Y, Prior distribution paramter 1, 23,Fault,7832.368059
+Y, Prior distribution paramter 2, 23,Fault,8092.368059
+Z, Prior distribution type, 23,Fault,Uniform
+Z, Prior distribution paramter 1, 23,Fault,3870.0
+Z, Prior distribution paramter 2, 23,Fault,4130.0
+XAxis, Prior distribution type, 23,Fault,Uniform
+XAxis, Prior distribution paramter 1, 23,Fault,469.0928335
+XAxis, Prior distribution paramter 2, 23,Fault,518.4710265
+YAxis, Prior distribution type, 23,Fault,Uniform
+YAxis, Prior distribution paramter 1, 23,Fault,469.0928335
+YAxis, Prior distribution paramter 2, 23,Fault,518.4710265
+ZAxis, Prior distribution type, 23,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 23,Fault,469.0928335
+ZAxis, Prior distribution paramter 2, 23,Fault,518.4710265
+Dip, Prior distribution type, 23,Fault,Uniform
+Dip, Prior distribution paramter 1, 23,Fault,60
+Dip, Prior distribution paramter 2, 23,Fault,80
+Dip Direction, Prior distribution type, 23,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 23,Fault,332.008727
+Dip Direction, Prior distribution paramter 2, 23,Fault,352.008727
+Slip, Prior distribution type, 23,Fault,Uniform
+Slip, Prior distribution paramter 1, 23,Fault,31.602043200000004
+Slip, Prior distribution paramter 2, 23,Fault,39.502554
+X, Prior distribution type, 24,Fault,Uniform
+X, Prior distribution paramter 1, 24,Fault,3992.227
+X, Prior distribution paramter 2, 24,Fault,4252.227
+Y, Prior distribution type, 24,Fault,Uniform
+Y, Prior distribution paramter 1, 24,Fault,8073.876
+Y, Prior distribution paramter 2, 24,Fault,8333.876
+Z, Prior distribution type, 24,Fault,Uniform
+Z, Prior distribution paramter 1, 24,Fault,3870.0
+Z, Prior distribution paramter 2, 24,Fault,4130.0
+XAxis, Prior distribution type, 24,Fault,Uniform
+XAxis, Prior distribution paramter 1, 24,Fault,668.7258439499999
+XAxis, Prior distribution paramter 2, 24,Fault,739.11803805
+YAxis, Prior distribution type, 24,Fault,Uniform
+YAxis, Prior distribution paramter 1, 24,Fault,668.7258439499999
+YAxis, Prior distribution paramter 2, 24,Fault,739.11803805
+ZAxis, Prior distribution type, 24,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 24,Fault,668.7258439499999
+ZAxis, Prior distribution paramter 2, 24,Fault,739.11803805
+Dip, Prior distribution type, 24,Fault,Uniform
+Dip, Prior distribution paramter 1, 24,Fault,60
+Dip, Prior distribution paramter 2, 24,Fault,80
+Dip Direction, Prior distribution type, 24,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 24,Fault,39.794227
+Dip Direction, Prior distribution paramter 2, 24,Fault,59.794227
+Slip, Prior distribution type, 24,Fault,Uniform
+Slip, Prior distribution paramter 1, 24,Fault,45.051004000000006
+Slip, Prior distribution paramter 2, 24,Fault,56.313755
+X, Prior distribution type, 25,Fault,Uniform
+X, Prior distribution paramter 1, 25,Fault,3652.255604
+X, Prior distribution paramter 2, 25,Fault,3912.255604
+Y, Prior distribution type, 25,Fault,Uniform
+Y, Prior distribution paramter 1, 25,Fault,8053.463792
+Y, Prior distribution paramter 2, 25,Fault,8313.463791999999
+Z, Prior distribution type, 25,Fault,Uniform
+Z, Prior distribution paramter 1, 25,Fault,3870.0
+Z, Prior distribution paramter 2, 25,Fault,4130.0
+XAxis, Prior distribution type, 25,Fault,Uniform
+XAxis, Prior distribution paramter 1, 25,Fault,371.3242466
+XAxis, Prior distribution paramter 2, 25,Fault,410.41100940000007
+YAxis, Prior distribution type, 25,Fault,Uniform
+YAxis, Prior distribution paramter 1, 25,Fault,371.3242466
+YAxis, Prior distribution paramter 2, 25,Fault,410.41100940000007
+ZAxis, Prior distribution type, 25,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 25,Fault,371.3242466
+ZAxis, Prior distribution paramter 2, 25,Fault,410.41100940000007
+Dip, Prior distribution type, 25,Fault,Uniform
+Dip, Prior distribution paramter 1, 25,Fault,60
+Dip, Prior distribution paramter 2, 25,Fault,80
+Dip Direction, Prior distribution type, 25,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 25,Fault,40.707954
+Dip Direction, Prior distribution paramter 2, 25,Fault,60.707954
+Slip, Prior distribution type, 25,Fault,Uniform
+Slip, Prior distribution paramter 1, 25,Fault,25.015528000000003
+Slip, Prior distribution paramter 2, 25,Fault,31.26941
+X, Prior distribution type, 26,Fault,Uniform
+X, Prior distribution paramter 1, 26,Fault,7391.253339
+X, Prior distribution paramter 2, 26,Fault,7651.253339
+Y, Prior distribution type, 26,Fault,Uniform
+Y, Prior distribution paramter 1, 26,Fault,6794.774821
+Y, Prior distribution paramter 2, 26,Fault,7054.774821
+Z, Prior distribution type, 26,Fault,Uniform
+Z, Prior distribution paramter 1, 26,Fault,3870.0
+Z, Prior distribution paramter 2, 26,Fault,4130.0
+XAxis, Prior distribution type, 26,Fault,Uniform
+XAxis, Prior distribution paramter 1, 26,Fault,1110.52105065
+XAxis, Prior distribution paramter 2, 26,Fault,1227.41800335
+YAxis, Prior distribution type, 26,Fault,Uniform
+YAxis, Prior distribution paramter 1, 26,Fault,1110.52105065
+YAxis, Prior distribution paramter 2, 26,Fault,1227.41800335
+ZAxis, Prior distribution type, 26,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 26,Fault,1110.52105065
+ZAxis, Prior distribution paramter 2, 26,Fault,1227.41800335
+Dip, Prior distribution type, 26,Fault,Uniform
+Dip, Prior distribution paramter 1, 26,Fault,60
+Dip, Prior distribution paramter 2, 26,Fault,80
+Dip Direction, Prior distribution type, 26,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 26,Fault,33.653758
+Dip Direction, Prior distribution paramter 2, 26,Fault,53.653758
+Slip, Prior distribution type, 26,Fault,Uniform
+Slip, Prior distribution paramter 1, 26,Fault,74.8140496
+Slip, Prior distribution paramter 2, 26,Fault,93.517562
+X, Prior distribution type, 27,Fault,Uniform
+X, Prior distribution paramter 1, 27,Fault,6940.201989
+X, Prior distribution paramter 2, 27,Fault,7200.201989
+Y, Prior distribution type, 27,Fault,Uniform
+Y, Prior distribution paramter 1, 27,Fault,6464.314129
+Y, Prior distribution paramter 2, 27,Fault,6724.314129
+Z, Prior distribution type, 27,Fault,Uniform
+Z, Prior distribution paramter 1, 27,Fault,3870.0
+Z, Prior distribution paramter 2, 27,Fault,4130.0
+XAxis, Prior distribution type, 27,Fault,Uniform
+XAxis, Prior distribution paramter 1, 27,Fault,1087.8167052000001
+XAxis, Prior distribution paramter 2, 27,Fault,1202.3237268
+YAxis, Prior distribution type, 27,Fault,Uniform
+YAxis, Prior distribution paramter 1, 27,Fault,1087.8167052000001
+YAxis, Prior distribution paramter 2, 27,Fault,1202.3237268
+ZAxis, Prior distribution type, 27,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 27,Fault,1087.8167052000001
+ZAxis, Prior distribution paramter 2, 27,Fault,1202.3237268
+Dip, Prior distribution type, 27,Fault,Uniform
+Dip, Prior distribution paramter 1, 27,Fault,60
+Dip, Prior distribution paramter 2, 27,Fault,80
+Dip Direction, Prior distribution type, 27,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 27,Fault,215.315911
+Dip Direction, Prior distribution paramter 2, 27,Fault,235.315911
+Slip, Prior distribution type, 27,Fault,Uniform
+Slip, Prior distribution paramter 1, 27,Fault,73.2844936
+Slip, Prior distribution paramter 2, 27,Fault,91.605617
+X, Prior distribution type, 28,Fault,Uniform
+X, Prior distribution paramter 1, 28,Fault,6867.15
+X, Prior distribution paramter 2, 28,Fault,7127.15
+Y, Prior distribution type, 28,Fault,Uniform
+Y, Prior distribution paramter 1, 28,Fault,6546.82
+Y, Prior distribution paramter 2, 28,Fault,6806.82
+Z, Prior distribution type, 28,Fault,Uniform
+Z, Prior distribution paramter 1, 28,Fault,3870.0
+Z, Prior distribution paramter 2, 28,Fault,4130.0
+XAxis, Prior distribution type, 28,Fault,Uniform
+XAxis, Prior distribution paramter 1, 28,Fault,1087.8165
+XAxis, Prior distribution paramter 2, 28,Fault,1202.3235
+YAxis, Prior distribution type, 28,Fault,Uniform
+YAxis, Prior distribution paramter 1, 28,Fault,1087.8165
+YAxis, Prior distribution paramter 2, 28,Fault,1202.3235
+ZAxis, Prior distribution type, 28,Fault,Uniform
+ZAxis, Prior distribution paramter 1, 28,Fault,1087.8165
+ZAxis, Prior distribution paramter 2, 28,Fault,1202.3235
+Dip, Prior distribution type, 28,Fault,Uniform
+Dip, Prior distribution paramter 1, 28,Fault,60
+Dip, Prior distribution paramter 2, 28,Fault,80
+Dip Direction, Prior distribution type, 28,Fault,Uniform
+Dip Direction, Prior distribution paramter 1, 28,Fault,215.32
+Dip Direction, Prior distribution paramter 2, 28,Fault,235.32
+Slip, Prior distribution type, 28,Fault,Uniform
+Slip, Prior distribution paramter 1, 28,Fault,183.208
+Slip, Prior distribution paramter 2, 28,Fault,229.01
