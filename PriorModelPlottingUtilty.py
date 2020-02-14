@@ -413,10 +413,7 @@ def PlotScenarios(ScenarioN, plot, plotwells =0):
     output_name = folder+'noddy_out'
     includeGravityCalc = 0
 
-    SurfacesScenario = {'Scenario1_MedResolution': 9, 'Scenario1_HighResolution':9,'Scenario2_MedResolution': 29,'Scenario2_HighResolution': 29, 'Scenario3_MedResolution': 12, 'Scenario3_HighResolution':12}
-    nSurfaces = SurfacesScenario[ScenarioN]
-
-    CubeSizes = {'Scenario1_MedResolution': 100, 'Scenario1_HighResolution':50,'Scenario2_MedResolution': 100,'Scenario2_HighResolution': 50, 'Scenario3_MedResolution': 100, 'Scenario3_HighResolution':50}
+    CubeSizes = {'Scenario1_LowResolution': 150, 'Scenario2_LowResolution': 150, 'Scenario3_LowResolution': 150, 'Scenario1_MedResolution': 100, 'Scenario1_HighResolution':50,'Scenario2_MedResolution': 100,'Scenario2_HighResolution': 50, 'Scenario3_MedResolution': 100, 'Scenario3_HighResolution':50}
     cubesize = CubeSizes[ScenarioN]
     modelfile = folder+ScenarioN+'.his'
     H1 = pynoddy.history.NoddyHistory(modelfile)
