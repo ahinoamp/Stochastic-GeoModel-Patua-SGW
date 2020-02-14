@@ -418,7 +418,6 @@ def PlotScenarios(ScenarioN, plot, plotwells =0):
 
     CubeSizes = {'Scenario1_MedResolution': 100, 'Scenario1_HighResolution':50,'Scenario2_MedResolution': 100,'Scenario2_HighResolution': 50, 'Scenario3_MedResolution': 100, 'Scenario3_HighResolution':50}
     cubesize = CubeSizes[ScenarioN]
-    cubesize = 250
     modelfile = folder+ScenarioN+'.his'
     H1 = pynoddy.history.NoddyHistory(modelfile)
     outputoption = 'BLOCK_SURFACES'
