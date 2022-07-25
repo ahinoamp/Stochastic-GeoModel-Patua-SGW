@@ -13,7 +13,7 @@ import sys, os
 import subprocess
 from shutil import copyfile
 import vtk
-from vtkplotter import *
+from vedo import *
 import pynoddy.history
 import pynoddy.events
 import time
